@@ -7,6 +7,9 @@ import jade.wrapper.AgentContainer;
 import jade.wrapper.AgentController;
 import jade.wrapper.StaleProxyException;
 
+/**
+ * @author Aymen Sassi
+ */
 public class Launcher {
 	public static void main(String[] args) {
 		Runtime runtime = Runtime.instance();
