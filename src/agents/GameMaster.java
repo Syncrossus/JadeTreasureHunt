@@ -68,44 +68,5 @@ public class GameMaster extends Agent {
 
 	public void setTreasure(Coord treasure) {
 		this.treasure = treasure;
-	}
-	
-	
-/*
-	private int nbEssais;
-	public int borneSup ;
-	public int borneInf;
-	
-	
-	
-	public int jouer(){
-		nbEssais ++;
-		return (int) (borneInf + Math.random() * (borneSup - borneInf + 1));
-	}
-	
-
-	public int getNbEssais() {
-		return nbEssais;
-	}
-
-	public void setNbEssais(int nbEssais) {
-		this.nbEssais = nbEssais;
-	}
-
-	public int getBorneSup() {
-		return borneSup;
-	}
-
-	public void setBorneSup(int borneSup) {
-		this.borneSup = borneSup;
-	}
-
-	public int getBorneInf() {
-		return borneInf;
-	}
-
-	public void setBorneInf(int borneInf) {
-		this.borneInf = borneInf;
-	}*/
-	
+	}	
 }
