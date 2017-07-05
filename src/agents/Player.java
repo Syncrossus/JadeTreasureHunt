@@ -12,13 +12,6 @@ import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.FSMBehaviour;
 
-//import behaviours.gamemaster.FinJeuBehaviour;
-//import behaviours.a.InitialisationBehaviour;
-//import behaviours.a.JeuBehaviour;
-//import jade.core.AID;
-//import jade.core.behaviours.FSMBehaviour;
-
-
 public class Player extends Agent{
 	private static final long serialVersionUID = 1709672583743068992L;
 	public static AID  IDENTIFIER = new AID("player", AID.ISLOCALNAME);
